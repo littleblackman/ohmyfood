@@ -1,0 +1,81 @@
+/* variables */
+$primary-color: green;
+$secondary-color: yellow;
+
+
+/* selecteurs */
+.btn
+{
+    background: $primary-color;
+    color: $secondary-color;
+    text-align: center;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.btn-wide
+{
+    width: 400px;
+
+}
+
+.btn-rounded
+{
+    border-radius: 1.5rem;
+}
+
+/* propriétés css */
+h1
+{
+    font-size: 5rem;
+}
+
+h2
+{
+    font-size: 4rem;
+}
+
+h3
+{
+    font-size: 3rem;
+}
+
+img
+{
+    height: 900px;
+}
+
+.container
+{
+    display: flex;
+    border: 1px black solid;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 3rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    align-items: center;
+}
+
+.container section
+{
+    box-shadow: 6px 6px 20px grey;
+    margin: 5rem;
+}
+
+.soon
+{
+    width: 1000px;
+    margin: auto;
+    line-height: 0.5rem;
+}
+
+footer
+{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
