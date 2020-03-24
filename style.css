@@ -2,8 +2,8 @@
 /* variables */
 /* selecteurs */
 .btn {
-  background: green;
-  color: yellow;
+  background: #299961;
+  color: rgba(255, 217, 0, 0.829);
   text-align: center;
 }
 
@@ -18,7 +18,7 @@
 /* propriétés css */
 h1 {
   font-size: 5rem;
-  line-height: 15rem;
+  line-height: 10rem;
 }
 
 h2 {
@@ -41,10 +41,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px black solid;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: auto;
@@ -59,7 +58,7 @@ body {
 }
 
 .soon {
-  width: 1000px;
+  width: 800px;
   margin: auto;
   margin-bottom: 10em;
   line-height: 5rem;
@@ -72,6 +71,8 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   line-height: 0.5rem;
   position: fixed;
   bottom: 0em;
@@ -81,6 +82,6 @@ footer {
 
 a {
   text-decoration: none;
-  color: yellow;
+  color: rgba(255, 217, 0, 0.829);
 }
 /*# sourceMappingURL=style.css.map */
