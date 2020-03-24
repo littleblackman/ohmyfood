@@ -1,6 +1,6 @@
 /* variables */
-$primary-color: rgb(41, 153, 97);
-$secondary-color: rgba(255, 217, 0, 0.829);
+$primary-color: rgba(41, 153, 138, 0.9OO);
+$secondary-color: rgba(255, 217, 0, 0.774);
 
 
 /* selecteurs */
@@ -22,33 +22,32 @@ $secondary-color: rgba(255, 217, 0, 0.829);
     border-radius: 1.5rem;
 }
 
+/*---------- propriétés css ----------*/
+
 /* propriétés css */
-h1
-{
-    font-size: 5rem;
-    line-height: 10rem;
-}
-
-h2
-{
-    font-size: 4rem;
-}
-
-h3
-{
-    font-size: 3rem;
-}
-
-img
-{
-    height: 1000px;
-}
 
 body
 {
     width: 100%;
 }
 
+/*---------- header css ----------*/
+
+header
+{
+    background: $primary-color;
+    color: $secondary-color;
+    text-align: center;
+    margin-bottom: 5em;
+    border: 1px $primary-color solid;
+}
+h1
+{
+    font-size: 5rem;
+
+}
+
+/*---------- container css ----------*/
 .container
 {
     display: flex;
@@ -64,18 +63,40 @@ body
 {
     box-shadow: 6px 6px 20px grey;
     margin: 5rem;
+    border: 1px black solid;
 }
+
+img
+{
+    height: 1000px;
+}
+
+/*---------- Prochainement css ----------*/
 
 .soon
 {
+    background: $primary-color;
+    color: $secondary-color;
+    text-align: center;
     width: 800px;
     margin: auto;
-    margin-bottom: 10em;
-    line-height: 5rem;
+    margin-bottom: 15em;
+    line-height: 0.2rem;
+    border-radius: 1.5rem;
+    border: 1px $primary-color solid;
 }
+
+h2
+{
+    font-size: 4rem;
+}
+
+
+/*---------- Footer css ----------*/
 
 footer
 {
+    background: $primary-color;
     display: flex;
     justify-content: space-between;
     padding-left: 1.5em;
@@ -85,6 +106,12 @@ footer
     bottom: 0em;
     right: 0em;
     left: 0em;
+    border: 1px $primary-color solid;
+}
+
+h3
+{
+    font-size: 3rem;
 }
 
 a
@@ -92,4 +119,3 @@ a
     text-decoration: none;
     color: $secondary-color;
 }
-
