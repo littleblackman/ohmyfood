@@ -9,7 +9,6 @@ $secondary-color: yellow;
     background: $primary-color;
     color: $secondary-color;
     text-align: center;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 .btn-wide
@@ -27,6 +26,7 @@ $secondary-color: yellow;
 h1
 {
     font-size: 5rem;
+    line-height: 15rem;
 }
 
 h2
@@ -70,15 +70,14 @@ body
 {
     width: 1000px;
     margin: auto;
-    line-height: 0.5rem;
+    line-height: 5rem;
 }
 
 footer
 {
-    margin-top: 5rem;
     display: flex;
     justify-content: space-between;
-    
+    line-height: 0.5rem;
 }
 
 a
