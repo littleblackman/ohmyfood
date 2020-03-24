@@ -51,22 +51,28 @@ h1
 .container
 {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
     margin: auto;
     margin-bottom: 5em;
     width: 80%;
+    border: 1px black solid;
 
 }
 
 .container section
 {
     margin: 5rem;
+
+    
+    
 }
 
 img
 {
-    height: 1000px;
+    height: auto;
+    width: 100%;
+    max-width: 500px;
     box-shadow: 6px 6px 20px grey;
 }
 

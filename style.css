@@ -39,14 +39,15 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   margin: auto;
   margin-bottom: 5em;
   width: 80%;
+  border: 1px black solid;
 }
 
 .container section {
@@ -54,7 +55,9 @@ h1 {
 }
 
 img {
-  height: 1000px;
+  height: auto;
+  width: 100%;
+  max-width: 500px;
   -webkit-box-shadow: 6px 6px 20px grey;
           box-shadow: 6px 6px 20px grey;
 }
