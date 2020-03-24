@@ -56,6 +56,7 @@ body
     justify-content: space-between;
     flex-wrap: wrap;
     margin: auto;
+    margin-bottom: 5em;
     width: 80%;
 
 }
@@ -70,6 +71,7 @@ body
 {
     width: 1000px;
     margin: auto;
+    margin-bottom: 10em;
     line-height: 5rem;
 }
 
@@ -78,10 +80,15 @@ footer
     display: flex;
     justify-content: space-between;
     line-height: 0.5rem;
+    position: fixed;
+    bottom: 0em;
+    right: 0em;
+    left: 0em;
 }
 
 a
 {
     text-decoration: none;
+    color: $secondary-color;
 }
 

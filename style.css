@@ -48,6 +48,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: auto;
+  margin-bottom: 5em;
   width: 80%;
 }
 
@@ -60,6 +61,7 @@ body {
 .soon {
   width: 1000px;
   margin: auto;
+  margin-bottom: 10em;
   line-height: 5rem;
 }
 
@@ -71,9 +73,14 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   line-height: 0.5rem;
+  position: fixed;
+  bottom: 0em;
+  right: 0em;
+  left: 0em;
 }
 
 a {
   text-decoration: none;
+  color: yellow;
 }
 /*# sourceMappingURL=style.css.map */
