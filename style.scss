@@ -41,7 +41,12 @@ h3
 
 img
 {
-    height: 900px;
+    height: 1000px;
+}
+
+body
+{
+    width: 100%;
 }
 
 .container
@@ -50,10 +55,9 @@ img
     border: 1px black solid;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 3rem;
-    padding-left: 15rem;
-    padding-right: 15rem;
-    align-items: center;
+    margin: auto;
+    width: 80%;
+
 }
 
 .container section
@@ -77,5 +81,8 @@ footer
     
 }
 
-
+a
+{
+    text-decoration: none;
+}
 
