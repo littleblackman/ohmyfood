@@ -1,33 +1,5 @@
-/* variables 
-$primary-color: rgba(41, 153, 138, 0.9OO);
-$secondary-color: rgba(255, 217, 0, 0.774);
-$menu1-background--color: #fddfdb
-$menu2-background--color: #FFF5FE
-$menu3-background--color: #F9F9F9
-$menu4-background--color: #FEFFFD
-
-$header__heading--font-family: 'Gelasio', serif;
-$menu1-p--font-family: 'Devonshire', cursive;
-$menu1-h2--font-family: 'Kalam', cursive;
-$menu2-p--font-family: 'Croissant One', cursive;
-$menu2-h2--font-family: 'Gelasio', serif;
-$menu3-p--font-family: 'Dancing Script', cursive;
-$menu3-h2--font-family:'Kalam', cursive;
-$menu4-p--font-family: 'Kaushan Script', cursive;
-$menu4-h2--font-family: 'Kalam', cursive;
-
-
-$menu1-p--color: #50252c
-$menu1-h2--color: #50252c
-$menu2-p--color:
-$menu2-h2--color:
-$menu3-p--color:
-$menu3-h2--color:
-$menu4-p--color:
-$menu4-h2--color:
-
-*/
-/* Polices 
+/*---------- Google fonts & Fontsawesome ----------*/
+/* Google fonts 
 
 font-family: 'Croissant One', cursive;
 font-family: 'Gelasio', serif;
@@ -40,41 +12,19 @@ font-family: 'Roboto Mono', monospace;
 font-family: 'Roboto Slab', serif;
 font-family: 'Kalam', cursive;
 font-family: 'Farsan', cursive;
-
-menu1
-    P1
-    {
-        font-family: 'Devonshire', cursive;
-    }
-
-    P2
-    {
-        font-family: 'Farsan', cursive;
-    }
-        
-    #FDDFDB
-    #3C1319
-
-menu2
-
-menu3
-
-menu4
-
-.container article
-{
-    margin: 5rem;
-    
-}
-
 */
 
-/* selecteurs */
-
-
-
+/*---------- Variables ----------*/
+    /* variables -- couleurs principales header/ aside/ footer */ 
 $primary-color: rgba(41, 153, 138, 0.9OO);
 $secondary-color: rgba(255, 217, 0, 0.774);
+    /* variables -- menu-prev--background-color*/ 
+$menu1-background--color: #fddfdb;
+$menu2-background--color: #FFF5FE;
+$menu3-background--color: #F9F9F9;
+$menu4-background--color: #FEFFFD;
+    /* variables -- menu-prev--font-family */ 
+$header__heading--font-family: 'Gelasio', serif;
 $menu1-p--font-family: 'Devonshire', cursive;
 $menu1-h2--font-family: 'Kalam', cursive;
 $menu2-p--font-family: 'Croissant One', cursive;
@@ -82,11 +32,20 @@ $menu2-h2--font-family: 'Gelasio', serif;
 $menu3-p--font-family: 'Dancing Script', cursive;
 $menu3-h2--font-family:'Kalam', cursive;
 $menu4-p--font-family: 'Kaushan Script', cursive;
-$menu4-h2--font-family:'Kalam', cursive;
-$header__heading--font-family: 'Gelasio', serif;
-
+$menu4-h2--font-family: 'Kalam', cursive;
+    /* variables -- menu-prev--color */ 
+$menu1-p--color: #50252c;
+$menu1-h2--color: #50252c;
+$menu2-p--color: rgb(111, 0, 255);
+$menu2-h2--color: #554145;
+$menu3-p--color: blue;
+$menu3-h2--color: blue;
+$menu4-p--color: rgba(59, 170, 31, 0.993);
+$menu4-h2--color: rgba(59, 170, 31, 0.993);
+    /* variables -- menu-prev--size */ 
 $menu-prev__p--size: 2.7em;
 
+/*---------- Selecteurs ----------*/
 .btn
 {
     background: $primary-color;
@@ -97,7 +56,6 @@ $menu-prev__p--size: 2.7em;
 .btn-wide
 {
     width: 400px;
-
 }
 
 .btn-rounded
@@ -105,7 +63,7 @@ $menu-prev__p--size: 2.7em;
     border-radius: 1.5rem;
 }
 
-
+/*---------- @mixin ----------*/
 @mixin menu-prev ($color){
     width: 500px;
     height: 700px;
@@ -134,14 +92,14 @@ $menu-prev__p--size: 2.7em;
 
 /*---------- propriétés css ----------*/
 
-/* propriétés css */
+/*---------- body */
 
 body
 {
     width: 100%;
 }
 
-/*---------- header css ----------*/
+/*---------- header */
 
 header
 {
@@ -159,7 +117,7 @@ header
     font-weight: bold;
 }
 
-/*---------- container css ----------*/
+/*---------- container */
 .container
 {
     display: flex;
@@ -219,7 +177,7 @@ header
     }
   }
 
-  /*---------- Prochainement css ----------*/
+  /*---------- Prochainement */
 
 .soon
 {
@@ -240,7 +198,7 @@ h2
 }
 
 
-/*---------- Footer css ----------*/
+/*---------- Footer */
 
 footer
 {
@@ -267,114 +225,3 @@ a
     text-decoration: none;
     color: $secondary-color;
 }
-
-/*
-
-.bg-1
-{
-    background: rgb(253, 223, 219);
-}
-
-.menu-p
-{
-    font-weight: normal;
-    font-size: 2.7em;
-    margin-bottom: -0.5em;
-    margin-top: 0em;
-}
-
-.font1
-{
-    font-family: 'Devonshire', cursive;
-}
-
-.font2
-{
-    font-family: 'Kalam', cursive;
-}
-
-
-
-
-
-
-.menu1
-{
-    width: 500px;
-    height: 700px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: rgb(253, 223, 219);
-    box-shadow: 6px 6px 20px grey;
-}
-
-.menu1 p
-{
-    font-family: 'Devonshire', cursive;
-    font-weight: normal;
-    font-size: 2.7em;
-    margin-bottom: -0.5em;
-    margin-top: 0em;
-    color: #50252c;
-}
-
-.menu1 h2
-{
-    font-family: 'Kalam', cursive;
-    color: #50252c;
-    
-}
-
-i
-{
-    color: red;
-}
-
-.menu2
-{
-    width: 500px;
-    height: 700px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: #FFF5FE;
-    box-shadow: 6px 6px 20px grey;
-}
-
-.menu2 p
-{
-    font-family: 'Devonshire', cursive;
-    font-weight: normal;
-    font-size: 2.7em;
-    margin-bottom: -0.5em;
-    margin-top: 0em;
-    color: #50252c;
-}
-
-.menu2 h2
-{
-    font-family: 'Kalam', cursive;
-    color: #50252c;
-    
-}
-
-
-
-
-
-img
-{
-    height: auto;
-    width: 100%;
-    max-width: 500px;
-    box-shadow: 6px 6px 20px grey;
-} 
-
-*/
-
-
-
-
