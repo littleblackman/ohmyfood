@@ -34,7 +34,7 @@ header a {
   width: 70%;
   margin: auto;
   text-align: center;
-  background: #F9F9F9;
+  background: #EDF0EF;
   margin-bottom: 10em;
   -webkit-box-shadow: 6px 6px 20px grey;
           box-shadow: 6px 6px 20px grey;
@@ -106,7 +106,7 @@ aside {
       -ms-flex-pack: center;
           justify-content: center;
   line-height: 10em;
-  color: #F9F9F9;
+  color: #EDF0EF;
 }
 
 aside img {
