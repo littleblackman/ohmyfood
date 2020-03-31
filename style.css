@@ -19,8 +19,8 @@ font-family: 'Farsan', cursive;
 /* variables -- menu-prev--size par défaut */
 /*---------- Selecteurs ----------*/
 .btn {
-  background: rgba(41, 153, 138, 0.9);
-  color: rgba(255, 217, 0, 0.774);
+  background: #579C87;
+  color: #F8CB4E;
   text-align: center;
 }
 
@@ -45,16 +45,16 @@ body {
 
 /*---------- header */
 .header {
-  background: rgba(41, 153, 138, 0.9);
-  color: rgba(255, 217, 0, 0.774);
+  background: #579C87;
+  color: #F8CB4E;
   text-align: center;
   margin-bottom: 5em;
-  border: 1px rgba(41, 153, 138, 0.9) solid;
+  border: 1px #579C87 solid;
 }
 
 .header__heading {
   font-size: 5em;
-  font-family: "Gelasio", serif;
+  font-family: arial;
   font-weight: bold;
 }
 
@@ -222,15 +222,15 @@ body {
 
 /*---------- Prochainement */
 .soon {
-  background: rgba(41, 153, 138, 0.9);
-  color: rgba(255, 217, 0, 0.774);
+  background: #579C87;
+  color: #F8CB4E;
   text-align: center;
   width: 800px;
   margin: auto;
   margin-bottom: 15em;
   line-height: 0.2rem;
   border-radius: 1.5rem;
-  border: 1px rgba(41, 153, 138, 0.9) solid;
+  border: 1px #579C87 solid;
 }
 
 .soon h2 {
@@ -239,7 +239,7 @@ body {
 
 /*---------- Footer */
 footer {
-  background: rgba(41, 153, 138, 0.9);
+  background: #579C87;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -253,7 +253,7 @@ footer {
   bottom: 0em;
   right: 0em;
   left: 0em;
-  border: 1px rgba(41, 153, 138, 0.9) solid;
+  border: 1px #579C87 solid;
 }
 
 h3 {
@@ -263,6 +263,6 @@ h3 {
 
 a {
   text-decoration: none;
-  color: rgba(255, 217, 0, 0.774);
+  color: #F8CB4E;
 }
 /*# sourceMappingURL=style.css.map */

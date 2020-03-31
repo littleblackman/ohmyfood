@@ -1,7 +1,7 @@
 /*---------- Variables ----------*/
     /* variables -- couleurs principales header/ aside/ footer */ 
-    $primary-color: rgba(41, 153, 138, 0.9OO);
-    $secondary-color: rgba(255, 217, 0, 0.774);
+    $primary-color: #579C87;
+    $secondary-color: #F8CB4E;
     $header__heading--font-family: arial;
 
 
@@ -14,7 +14,7 @@
 
         /* font-family*/
 
-    $menu-header__heading--font-family: 'Gelasio', serif;
+    $menu-header__heading--font-family: 'Dancing Script', cursive;
     $menu-theme__headind--font-family: 'Kalam', cursive;
     $menu-theme__plat--font-family: 'Kalam', cursive;
 
@@ -47,7 +47,7 @@ header a
     font-size: 5rem;
     font-family: $header__heading--font-family;
     font-weight: bold;
-    color: yellow;
+    color: $secondary-color;
 }
 
 /* container */

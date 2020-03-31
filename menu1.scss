@@ -1,8 +1,8 @@
 /*---------- Variables ----------*/
     /* variables -- couleurs principales header/ aside/ footer */ 
-    $primary-color: rgba(41, 153, 138, 0.9OO);
-    $secondary-color: rgba(255, 217, 0, 0.774);
-    $header__heading--font-family: 'Gelasio', serif;
+    $primary-color: #579C87;
+    $secondary-color: #F8CB4E;
+    $header__heading--font-family: arial;
 
     /* variables -- Menu*/ 
         /* color*/
@@ -45,7 +45,7 @@ header a
     font-size: 5rem;
     font-family: $header__heading--font-family;
     font-weight: bold;
-    color: yellow;
+    color: $secondary-color;
 }
 
 /* container */

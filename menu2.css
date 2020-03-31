@@ -11,11 +11,11 @@ body {
 
 /*---------- header */
 header {
-  background: rgba(41, 153, 138, 0.9);
-  color: rgba(255, 217, 0, 0.774);
+  background: #579C87;
+  color: #F8CB4E;
   text-align: center;
   margin-bottom: 5em;
-  border: 1px rgba(41, 153, 138, 0.9) solid;
+  border: 1px #579C87 solid;
 }
 
 header a {
@@ -27,7 +27,7 @@ header a {
   font-size: 5rem;
   font-family: arial;
   font-weight: bold;
-  color: yellow;
+  color: #F8CB4E;
 }
 
 /* container */
@@ -126,7 +126,7 @@ aside h2 {
 
 /*---------- Footer */
 footer {
-  background: rgba(41, 153, 138, 0.9);
+  background: #579C87;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,7 +140,7 @@ footer {
   bottom: 0em;
   right: 0em;
   left: 0em;
-  border: 1px rgba(41, 153, 138, 0.9) solid;
+  border: 1px #579C87 solid;
 }
 
 h3 {
@@ -150,22 +150,22 @@ h3 {
 
 a {
   text-decoration: none;
-  color: rgba(255, 217, 0, 0.774);
+  color: #F8CB4E;
 }
 
 /* Specificité menu 2*/
 .menu-theme1 {
-  color: brown;
+  color: #C8760B;
   margin-bottom: 3em;
 }
 
 .menu-theme2 {
-  color: #b26ff1;
+  color: #A7679B;
   margin-bottom: 3em;
 }
 
 .menu-theme3 {
-  color: blue;
+  color: #6D4CCE;
   margin-bottom: 3em;
 }
 /*# sourceMappingURL=menu2.css.map */
