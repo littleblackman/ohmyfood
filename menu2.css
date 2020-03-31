@@ -1,16 +1,9 @@
 @charset "UTF-8";
-/* variables */
 /*---------- Variables ----------*/
 /* variables -- couleurs principales header/ aside/ footer */
 /* variables -- menu-prev--background-color*/
 /* color*/
 /* font-family*/
-/* font-size*/
-/* variables -- menu-prev--font-family */
-/* variables -- menu-prev--color */
-/* variables -- menu-prev--size */
-/*---------- Selecteurs ----------*/
-/*---------- @mixin ----------*/
 /*---------- css ----------*/
 body {
   width: 100%;
@@ -32,7 +25,7 @@ header a {
 
 .header__heading {
   font-size: 5rem;
-  font-family: "Gelasio", serif;
+  font-family: arial;
   font-weight: bold;
   color: yellow;
 }
@@ -59,7 +52,7 @@ header a {
 .menu-header__heading {
   color: blue;
   font-size: 4em;
-  font-family: "Devonshire", cursive;
+  font-family: "Kaushan Script", cursive;
   padding-top: 3em;
   margin-bottom: 2em;
 }
@@ -79,7 +72,7 @@ header a {
       justify-content: space-around;
   font-family: "Kalam", cursive;
   font-size: 1.5em;
-  color: blue;
+  /*color: $menu-theme__headind--color;*/
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -96,7 +89,7 @@ header a {
           justify-content: space-between;
   font-family: "Kalam", cursive;
   font-size: 1.8em;
-  color: #50252c;
+  /*color: $menu-theme__plat--color;*/
 }
 
 .prix {
@@ -123,7 +116,7 @@ aside img {
 
 aside h2 {
   font-size: 3em;
-  font-family: "Devonshire", cursive;
+  font-family: "Kaushan Script", cursive;
   margin-bottom: 0em;
 }
 
@@ -140,7 +133,6 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
   padding-left: 1.5em;
   padding-right: 1.5em;
   line-height: 0.5rem;
@@ -162,8 +154,8 @@ a {
 }
 
 /* Specificité menu 2*/
-.menu-theme3 {
-  color: blue;
+.menu-theme1 {
+  color: brown;
   margin-bottom: 3em;
 }
 
@@ -172,8 +164,8 @@ a {
   margin-bottom: 3em;
 }
 
-.menu-theme1 {
-  color: brown;
+.menu-theme3 {
+  color: blue;
   margin-bottom: 3em;
 }
 /*# sourceMappingURL=menu2.css.map */

@@ -1,20 +1,20 @@
-/* variables */
-
 /*---------- Variables ----------*/
     /* variables -- couleurs principales header/ aside/ footer */ 
     $primary-color: rgba(41, 153, 138, 0.9OO);
     $secondary-color: rgba(255, 217, 0, 0.774);
+    $header__heading--font-family: arial;
+
 
     /* variables -- menu-prev--background-color*/ 
         /* color*/
     $menu-background--color: #FFF5FE;
     $menu-header__heading--color: blue;
-    $menu-theme__headind--color: blue;
-    $menu-theme__plat--color: #50252c;
+    $menu-theme__headind--color: black;
+    $menu-theme__plat--color: black;
 
         /* font-family*/
 
-    $menu-header__heading--font-family: 'Gelasio', serif;
+    $menu-header__heading--font-family: 'Kaushan Script', cursive;
     $menu-theme__headind--font-family: 'Kalam', cursive;
     $menu-theme__plat--font-family: 'Kalam', cursive;
 
@@ -91,9 +91,9 @@ header a
     margin: auto;
     display: flex;
     justify-content: space-around;
-    font-family: $menu1-h2--font-family;
+    font-family: $menu-theme__headind--font-family;
     font-size: 1.5em;
-    color: $menu-theme__headind--color;
+    /*color: $menu-theme__headind--color;*/
     align-items: center;
 }
 
@@ -103,9 +103,9 @@ header a
     margin: auto;
     display: flex;
     justify-content: space-between;
-    font-family: $menu1-h2--font-family;
+    font-family: $menu-theme__plat--font-family;
     font-size: 1.8em;
-    color: $menu-theme__plat--color;
+    /*color: $menu-theme__plat--color;*/
 }
 
 .prix
@@ -175,9 +175,9 @@ a
 
 /* Specificité menu 2*/
 
-.menu-theme3
+.menu-theme1
 {
-    color: blue;
+    color: brown;
     margin-bottom: 3em;
 }
 
@@ -188,8 +188,11 @@ a
 
 }
 
-.menu-theme1
+.menu-theme3
 {
-    color: brown;
+    color: blue;
     margin-bottom: 3em;
 }
+
+
+
