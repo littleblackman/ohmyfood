@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* variables */
+/*---------- Variables ----------*/
+/* variables -- couleurs principales header/ aside/ footer */
+/* variables -- menu-prev--background-color*/
+/* color*/
+/* font-family*/
+/* font-size*/
+/* variables -- menu-prev--font-family */
+/* variables -- menu-prev--color */
+/* variables -- menu-prev--size */
+/*---------- Selecteurs ----------*/
+/*---------- @mixin ----------*/
+/*---------- css ----------*/
+body {
+  width: 100%;
+}
+
+/*---------- header */
+header {
+  background: rgba(41, 153, 138, 0.9);
+  color: rgba(255, 217, 0, 0.774);
+  text-align: center;
+  margin-bottom: 5em;
+  border: 1px rgba(41, 153, 138, 0.9) solid;
+}
+
+header a {
+  text-decoration: none;
+  color: yellow;
+}
+
+.header__heading {
+  font-size: 5rem;
+  font-family: "Gelasio", serif;
+  font-weight: bold;
+  color: yellow;
+}
+
+/* container */
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  background: #FFF5FE;
+  margin-bottom: 10em;
+  -webkit-box-shadow: 6px 6px 20px grey;
+          box-shadow: 6px 6px 20px grey;
+}
+
+.menu-header__img, .menu1__note-music2 {
+  width: 10%;
+  margin: auto;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  display: none;
+}
+
+.menu-header__heading {
+  color: blue;
+  font-size: 4em;
+  font-family: "Devonshire", cursive;
+  padding-top: 3em;
+  margin-bottom: 2em;
+}
+
+.separateur {
+  width: 25%;
+  height: 50%;
+}
+
+.menu-theme__heading {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: "Kalam", cursive;
+  font-size: 1.5em;
+  color: blue;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-theme__plat {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Kalam", cursive;
+  font-size: 1.8em;
+  color: #50252c;
+}
+
+.prix {
+  font-weight: bold;
+}
+
+aside {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 10em;
+  color: #FFF5FE;
+}
+
+aside img {
+  margin-right: 1em;
+}
+
+aside h2 {
+  font-size: 3em;
+  font-family: "Devonshire", cursive;
+  margin-bottom: 0em;
+}
+
+.menu1__note-music2 {
+  width: 5%;
+}
+
+/*---------- Footer */
+footer {
+  background: rgba(41, 153, 138, 0.9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  line-height: 0.5rem;
+  position: fixed;
+  bottom: 0em;
+  right: 0em;
+  left: 0em;
+  border: 1px rgba(41, 153, 138, 0.9) solid;
+}
+
+h3 {
+  font-size: 3rem;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 217, 0, 0.774);
+}
+
+/* Specificité menu 2*/
+.menu-theme3 {
+  color: blue;
+  margin-bottom: 3em;
+}
+
+.menu-theme2 {
+  color: #b26ff1;
+  margin-bottom: 3em;
+}
+
+.menu-theme1 {
+  color: brown;
+  margin-bottom: 3em;
+}
+/*# sourceMappingURL=menu2.css.map */

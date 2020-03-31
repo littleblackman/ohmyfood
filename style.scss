@@ -39,7 +39,7 @@ $menu3-p--color: blue;
 $menu3-h2--color: blue;
 $menu4-p--color: rgba(59, 170, 31, 0.993);
 $menu4-h2--color: rgba(59, 170, 31, 0.993);
-    /* variables -- menu-prev--size */ 
+    /* variables -- menu-prev--size par défaut */ 
 $menu-prev__p--size: 2.7em;
 $menu-prev__h2--size: 4em;
 
@@ -79,8 +79,8 @@ $menu-prev__h2--size: 4em;
 }
 
 @mixin menu-prev ($color){
-    width: 500px;
-    height: 700px;
+    width: 480px;
+    height: 690px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -116,20 +116,17 @@ body
 
 /*---------- header */
 
-header
-{
+.header {
     background: $primary-color;
     color: $secondary-color;
     text-align: center;
     margin-bottom: 5em;
     border: 1px $primary-color solid;
-}
-
-.header__heading
-{
-    font-size: 5rem;
-    font-family: $header__heading--font-family;
-    font-weight: bold;
+    &__heading {
+        font-size: 5em;
+        font-family: $header__heading--font-family;
+        font-weight: bold;
+    }
 }
 
 /*---------- container */
@@ -140,7 +137,7 @@ header
     justify-content: center;
     margin: auto;
     margin-bottom: 5em;
-    width: 80%;
+    width: 100%;
 }
 
 .note-music
@@ -220,7 +217,6 @@ footer
     background: $primary-color;
     display: flex;
     justify-content: space-between;
-    width: 100%;
     padding-left: 1.5em;
     padding-right: 1.5em;
     line-height: 0.5rem;
@@ -243,83 +239,4 @@ a
     color: $secondary-color;
 }
 
-/*---------- ss menus */
-/*
-.menu1 {
-    @include ss-menu-prev($menu1-background--color);
-    &__h2 {
-        @include menu-prev__h2($menu2-h2--color, $menu1-p--font-family )
-    }
-}*/
-
-.container2
-{
-    border: 1px black solid;
-    width: 60%;
-    margin: auto;
-    text-align: center;
-    background: $menu1-background--color;
-    
-}
-
-.menu1-titre
-{
-    color: $menu1-h2--color;
-    font-family: $menu1-p--font-family;
-    font-size: 2.5em;
-}
-
-.menu1__note-music
-{
-    width: 10%;
-    margin-top: 2em;
-}
-
-.theme-titre
-{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2em;
-    align-items: center;
-}
-
-.separateur
-{
-    border: 1px blue solid;
-    width: 40%;
-    height: 50%;
-    
-    
-}
-
-.menu-theme
-{
-    border: 1px red solid;
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-article
-{
-    color: $menu1-p--color;
-    font-family: $menu1-h2--font-family;
-    font-size: 1.5em;
-}
-
-
-.container2 h2
-{
-    border: 1px red solid;
-}
-
-.menu1__note-music2
-{
-    width: 5%;
-    margin-top: 2em;
-}
 
